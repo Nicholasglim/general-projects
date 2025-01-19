@@ -1,14 +1,12 @@
-
 library(dplyr)
 library(tidyr)
 
 url <- "https://raw.githubusercontent.com/Nicholasglim/general-projects/refs/heads/main/datasets/Mall_Customers.csv"
 data <- read.csv(url)
 
-```
 # Checking whether rows/columns tally with info on kaggle 
 dim(data)
-```
+
 # Previewing first 5 rows of dataset
 head(data)
 
