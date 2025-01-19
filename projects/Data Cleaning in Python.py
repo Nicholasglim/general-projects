@@ -1,14 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Nov 25 11:31:01 2024
-
-@author: nicho
-"""
-
+```python
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-
+```
 # The dataset Mall_Customers.csv can be found here:
 url = "https://raw.githubusercontent.com/Nicholasglim/general-projects/main/datasets/Mall_Customers.csv"
 data = pd.read_csv(url)
