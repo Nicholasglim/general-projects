@@ -3,7 +3,7 @@
 2) Renaming variables for easy referencing
 3) Changing data types
 4) Visualise continuous variables through boxplot
-5) Filtering outliers.
+5) Filtering outliers
 ```
 library(dplyr)
 library(tidyr)
